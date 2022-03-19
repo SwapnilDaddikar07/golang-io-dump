@@ -1,0 +1,5 @@
+Hello World!!
+This is a sample input file.
+We will be reading this file via a go program.
+Random characters here to increase the size of the file , coz why not ?
+Wait are we still doing this?
