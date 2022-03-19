@@ -13,6 +13,8 @@ func main() {
 		log.Fatalln(fileOpenError)
 	}
 
+	defer f.Close()
+
 	entireFile, fileReadError := io.ReadAll(f)
 	if fileReadError != nil {
 		log.Fatalln(fileReadError)
